@@ -3,15 +3,14 @@ html{
 }
 #header{
     background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXEzYTB3NXlob3BmZmcweTRsenJ6N3p6NzU0ejB1bjlzMjBmYnplMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5ZXA1Gb4uleV1nHVhF/giphy.webp);
-    height: 60px;
+   
     top:0px;
+    height:15%;
     width:100%;
-    margin:0px;
-    padding:0;
-    border:none;
     position:fixed;
     background-color: black;
     z-index: 1;
+    align-content: center
     
     
 }
@@ -22,7 +21,7 @@ html{
 
 .pagelinks h1{
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 a{
@@ -163,4 +162,3 @@ div.icon{
     max-width: 500px;
     display: inline;
 }
-
