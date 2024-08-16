@@ -163,7 +163,7 @@ div.icon{
    
     top:0px;
     width:100%;
-    height:8%;
+    height:10%;
     align-content: center;
     border:none;
     position:fixed;
@@ -174,17 +174,16 @@ div.icon{
 }
 .pagelinks{
     display: inline-block;
-    padding:0px 10px 0px 16px;
-    justify-content: center;
+    padding:0px 0px 0px 16px;
 }
 
 .pagelinks h1{
     text-align: justify;
-    font-size: 50px;
+    font-size: 18px;
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -202,13 +201,13 @@ footer{
     width:100%
 }
 .footer{
-    margin:16px;
-    font-size:36px;
+    margin:16px 16px;
+    font-size:16px;
 }
 .title{
     color: white;
     text-align: center;
-    font-size:50px;
+    font-size:18px;
     margin:16px;
 }
 
@@ -216,18 +215,18 @@ footer{
     color: white;
     text-align: center;
     position:relative;
-    top:180px;
+    top:80px;
     border: 8px double purple;
     margin:16px;
-    height:500px;
+    height:300px;
 }
 #main{
     position:relative;
-    top:-120px;
+    top:-100px;
 }
 .sub{
     color:greenyellow;
-    font-size: 36px;
+    font-size: 14px;
     text-align: center;
 }
 #gif{
@@ -236,8 +235,8 @@ footer{
     display: block;
     margin:auto;
     position:relative;
-    top:-50px;
-    
+    top:-40px;
+    max-height:260px;
     
 }
 
@@ -247,7 +246,7 @@ footer{
     background-color:black;
 }
 #space2{
-    height:180px;
+    height:80px;
     width:100%;
     background-color:black;
 }
@@ -259,31 +258,34 @@ footer{
 
 .photos{
     align-content: center;
-    width:33.33%;
-    padding: inherit;
+    width:33%;
+  
+    display:inline-block;
 
 }
 .album{
     text-align: justify;
-    display:flex;
+    display:inline-flex;
     width:100%;
    flex-wrap: wrap;
+  
+    flex:1;
 }
 #gallery{ 
-   padding:16px;
+   max-width:100px;
    
 }
 
 #icon{
-    height:100px;
-    width:100px;
+    height:72px;
+    width:72px;
     padding:15px;
     text-align: center;
     
 }
 #iconrb{
-    height:82px;
-    width:82px;
+    height:57px;
+    width:57px;
     padding:15px;
     text-align: center;
     position:relative;
@@ -305,8 +307,8 @@ div.icon{
 .flex-item{
     
     text-align:center;
-    margin:inherit;
-    width:30%;
+    width:100%;
+    margin:8px;
 
    
     
