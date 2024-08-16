@@ -157,7 +157,7 @@ div.icon{
 }
 
 /*phone*/
-@media all and (max-width:600px){
+@media screen and (max-width:480px){
 #header{
     background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXEzYTB3NXlob3BmZmcweTRsenJ6N3p6NzU0ejB1bjlzMjBmYnplMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5ZXA1Gb4uleV1nHVhF/giphy.webp);
    
